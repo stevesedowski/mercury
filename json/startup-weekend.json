@@ -1,0 +1,41 @@
+{ 
+  "Checking": "",
+  "Paycheck": "",
+  "Bills": {
+    "Housing": {
+      "Rent": "475",
+      "Water": "34",
+      "Waste": "23",
+      "Electricity": "45",
+      "Internet": "29.99",
+      "Cable": "",
+      "gas": "25"
+    },
+    "Food": {
+      "Groceries": "",
+      "Starbucks": "",
+      "Lunch": "",
+      "Dinner": ""
+    },
+    "Health": {
+      "insurance": "",
+      "dental": "",
+      "eye": "",
+      "chiropractor": ""
+    },
+    "Auto": {
+      "Payment": "",
+      "Gas": "",
+      "Insurance": "",
+      "Repairs": ""
+    },
+    "Entertainment": {
+      "Netflix": ""
+    },
+    "Misc": {
+      "Haircuts": "",
+      "Presents": ""
+    }
+  },
+  "Balance": ""
+}

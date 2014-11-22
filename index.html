@@ -1,0 +1,22 @@
+<html ng-app="budgeTsu">
+<head>
+	<title>Budgetsu</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body ng-controller="MainController">
+
+	<form name="entry">
+		Rent: <input class="input" type="input" ng-model="rent"><br>
+		Water: <input class="input" type="input" ng-model="water"><br>
+		Electric: <input class="input" type="input" ng-model="electric"><br>
+		Internet: <input class="input" type="input" ng-model="internet"><br>
+		<!-- Gas: <input type="input" ng-model="gas"><br> -->
+
+
+				Where You're At: {{ (rent * 1) + (water * 1) + (electric * 1) + (internet * 1)  }}
+<!-- 		Where You're At: {{ (input.rent) + (input.water * 1) + (input.electric * 1) }} -->
+	</form>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
